@@ -110,9 +110,10 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #e44c65;
+		/* border-bottom: dotted 1px; */
+		/* color: #e44c65; */
 		text-decoration: none;
+		color: white;
 	}
 
 		a:hover {
@@ -3601,6 +3602,11 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+			.spotlight.right .content {
+				padding: 1.5em 2.5em;
+				width: 25em;
+			}
+
 	}
 
 /* Large */
@@ -3624,9 +3630,10 @@ input, select, textarea {
 			}
 
 			.spotlight.left .content, .spotlight.right .content {
-				padding: 4.5em 2.5em;
+				padding: 1.5em 2.5em;
 				width: 25em;
 			}
+
 
 		/* Wrapper */
 
